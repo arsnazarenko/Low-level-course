@@ -1,5 +1,5 @@
-/*/*.o
-/*/build
-/*/obj
-/*/*.html
-
+**.o
+**.so
+**/build
+**/obj
+**.html
