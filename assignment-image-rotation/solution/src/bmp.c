@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 struct __attribute__((packed)) bmp_header {
     uint16_t bfType;
     uint32_t bfileSize;
@@ -155,3 +156,4 @@ enum write_status to_bmp(FILE *out, const struct image *image) {
     }
     return WRITE_OK;
 }
+

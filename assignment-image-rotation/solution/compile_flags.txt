@@ -3,5 +3,6 @@
 -pedantic
 -Wall
 -Werror
+-Wextra
 -ggdb0
 -Wno-attributes
